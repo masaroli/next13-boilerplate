@@ -1,39 +1,34 @@
-# Next.js 13 Boilerplate
-
-This is a boilerplate repository for creating Next.js 13 projects with TypeScript, ESLint, and Material UI (MUI).
-
-## Features
-
-- Next.js 13: The latest version of Next.js, a React framework for building server-side rendered and static websites.
-- TypeScript: A typed superset of JavaScript that enables static type checking and improved tooling.
-- ESLint: A popular JavaScript linter that helps maintain code quality and enforce consistent code style.
-- Material UI (MUI): A popular React component library that provides pre-designed and customizable UI components.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-To get started with this boilerplate, follow these steps:
+First, run the development server:
 
-1. Clone the repository:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-   ```bash
-   git clone <repository-url>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-2. Install dependencies
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-   ```bash
-   cd nextjs-13-boilerplate
-   npm install
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-3. Start server development
+## Learn More
 
-   ```bash
-   npm run dev
+To learn more about Next.js, take a look at the following resources:
 
-This will start the Next.js development server and you can view your application at http://localhost:3000.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Contributing
-Contributions to this boilerplate are welcome! If you have any suggestions, improvements, or bug fixes, please open an issue or submit a pull request.
+## Deploy on Vercel
 
-### License
-This project is licensed under the MIT License.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

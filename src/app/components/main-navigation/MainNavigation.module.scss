@@ -1,0 +1,13 @@
+.container {
+  min-height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  column-gap: 24px;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
